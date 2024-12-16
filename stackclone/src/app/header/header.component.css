@@ -1,0 +1,61 @@
+/* Line above the header */
+.header-line {
+    height: 3px; /* Line height */
+    background-color: orange; /* Line color */
+    position: absolute; /* Position it across the screen */
+    top: 0; /* Align it to the top of the viewport */
+    left: 0; /* Align it to the left of the viewport */
+    width: 100vw; /* Ensure it stretches the full width of the screen */
+    z-index: 1; /* Make sure it appears above other content */
+  }
+/* Styling for the badge below the header */
+.badge-container {
+    width: 100vw; /* Make the badge container full width */
+    padding: 10px 0; /* Adds padding to the container */
+    background-color: #f8f9fa; /* Optional: Background color for the badge container */
+    position: relative;
+  }
+  
+  .badge {
+    font-size: 1rem; /* Adjust font size of badge text */
+    padding: 5px 15px; /* Adjust badge padding */
+  }
+  
+  .badge i {
+    font-size: 1.2rem; /* Size of the cancel icon */
+    margin-right: 5px; /* Space between the icon and text */
+  }
+
+/* Center-align the navigation links */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Center align the links */
+    flex-grow: 1; /* Allow it to take up available space */
+  }
+  
+  /* Styling for the search box */
+  .navbar .form-control {
+    width: 400px; /* Width of the search box */
+  }
+  
+  .navbar .form-control i {
+    font-size: 1.2rem; /* Adjust icon size */
+    color: #6c757d; /* Icon color */
+  }
+  
+  /* Styling for the buttons */
+  .btn {
+    padding: 4px 15px; /* Adjust button padding */
+  }
+  
+  /* Optional: Adjust font size for navbar links */
+  .navbar .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust to desired font size */
+    font-weight: 500; /* Make the font slightly bolder */
+  }
+  
+  /* Optional: Navbar background color */
+  .navbar-light {
+    background-color: #f8f9fa; /* Light background color for the navbar */
+  }
+  

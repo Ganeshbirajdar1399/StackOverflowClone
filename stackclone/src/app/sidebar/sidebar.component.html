@@ -1,0 +1,14 @@
+<ul class="list-group shadow-sm">
+    <li
+      *ngFor="let item of sidebarItems; index as i"
+      class="list-group-item d-flex align-items-center"
+      [@fadeIn]
+      [@hoverEffect]="hoveredIndex === i ? 'hovered' : 'normal'"
+      (mouseover)="setHovered(i)"
+      (mouseout)="clearHovered()"
+    >
+      <i [class]="item.icon + ' text-primary mr-2'"></i>
+      <span>{{ item.name }}</span>
+    </li>
+  </ul>
+  
